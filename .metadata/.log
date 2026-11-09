@@ -1,0 +1,545 @@
+!SESSION 2026-11-02 12:30:08.937 -----------------------------------------------
+eclipse.buildId=8.0.3
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:30:27.782
+!MESSAGE Enablement expression is missing for config provider for com.qnx.tools.ide.qde.core.recursiveMkProject
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:30:27.783
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:30:27.783
+!MESSAGE Enablement expression is missing for config provider for com.qnx.tools.ide.qde.debug.core.descriptorType.default
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:30:27.784
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY com.qnx.tools.ide.capabilities.ui 4 0 2026-11-02 12:30:27.794
+!MESSAGE activityProfiles.activityRequirementBinding: Invalid activityId com.qnx.tools.ide.capabilities.ui.activity.qnxSystemDeveloper
+
+!ENTRY com.qnx.tools.ide.capabilities.ui 4 0 2026-11-02 12:30:27.795
+!MESSAGE activityProfiles.activityRequirementBinding: Invalid requiredActivityId com.qnx.tools.ide.capabilities.ui.activity.qnxDeveloper
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.MomenticsHeartbeatClient 1 0 2026-11-02 12:30:27.931
+!MESSAGE License heartbeats are enabled (automatically)
+
+!ENTRY com.qnx.tools.ide.core 2 0 2026-11-02 12:30:28.184
+!MESSAGE Using previous doc directory C:\Users\amirn\qnx700\target\qnx7\usr\help
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.MomenticsHeartbeatClient 1 0 2026-11-02 12:30:28.197
+!MESSAGE Successfully created a momentics heartbeat client
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.HeartbeatJob 1 0 2026-11-02 12:30:28.200
+!MESSAGE Heartbeat Job constructed with Invocation ON_SERVER_NEXT_SEND (scheduled to run at 2026-11-12T04:51:15Z)
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.HeartbeatJob 1 0 2026-11-02 12:32:28.275
+!MESSAGE Heartbeat request not sent. Time is not right.
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.MomenticsHeartbeatClient 1 0 2026-11-02 12:32:28.276
+!MESSAGE License heartbeats are enabled (automatically)
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.HeartbeatJob 1 0 2026-11-02 12:32:28.277
+!MESSAGE Heartbeat Job constructed with Invocation ON_SERVER_NEXT_SEND (scheduled to run at 2026-11-12T04:51:15Z)
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2026-11-02 12:32:53.147
+!MESSAGE Failed to read project description file from location '.project'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException()[567]: java.io.FileNotFoundException: .project (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.ProjectDescriptionReader.read(ProjectDescriptionReader.java:985)
+	at org.eclipse.core.internal.resources.Workspace.loadProjectDescription(Workspace.java:2082)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerComponent.detectComponentType(ImportWizardSelectionPage.java:693)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerComponent.init(ImportWizardSelectionPage.java:563)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerComponent.<init>(ImportWizardSelectionPage.java:556)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerContentProvider.getElements(ImportWizardSelectionPage.java:793)
+	at org.eclipse.jface.viewers.StructuredViewer.getRawChildren(StructuredViewer.java:941)
+	at org.eclipse.jface.viewers.ColumnViewer.getRawChildren(ColumnViewer.java:702)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1455)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:849)
+	at org.eclipse.jface.viewers.StructuredViewer.getSortedChildren(StructuredViewer.java:1025)
+	at org.eclipse.jface.viewers.ColumnViewer.getSortedChildren(ColumnViewer.java:821)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:689)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:867)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:818)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1647)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:782)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$2(AbstractTreeViewer.java:1632)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.CheckboxTreeViewer.preservingSelection(CheckboxTreeViewer.java:407)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1626)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1636)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage.init(ImportWizardSelectionPage.java:275)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage.createControl(ImportWizardSelectionPage.java:254)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:180)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:744)
+	at org.eclipse.jface.wizard.WizardDialog.setWizard(WizardDialog.java:1184)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1235)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$3(WizardDialog.java:1225)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1225)
+	at org.eclipse.ui.internal.dialogs.ImportExportPage.treeDoubleClicked(ImportExportPage.java:229)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:779)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:776)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1579)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1205)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:271)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:328)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:153)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:279)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2026-11-02 12:32:53.148
+!MESSAGE Failed to read project description file from location '.project'.
+!STACK 0
+java.io.FileNotFoundException: .project (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.ProjectDescriptionReader.read(ProjectDescriptionReader.java:985)
+	at org.eclipse.core.internal.resources.Workspace.loadProjectDescription(Workspace.java:2082)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerComponent.detectComponentType(ImportWizardSelectionPage.java:693)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerComponent.init(ImportWizardSelectionPage.java:563)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerComponent.<init>(ImportWizardSelectionPage.java:556)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage$ContainerContentProvider.getElements(ImportWizardSelectionPage.java:793)
+	at org.eclipse.jface.viewers.StructuredViewer.getRawChildren(StructuredViewer.java:941)
+	at org.eclipse.jface.viewers.ColumnViewer.getRawChildren(ColumnViewer.java:702)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1455)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:849)
+	at org.eclipse.jface.viewers.StructuredViewer.getSortedChildren(StructuredViewer.java:1025)
+	at org.eclipse.jface.viewers.ColumnViewer.getSortedChildren(ColumnViewer.java:821)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:689)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:867)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:818)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1647)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:782)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$2(AbstractTreeViewer.java:1632)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.CheckboxTreeViewer.preservingSelection(CheckboxTreeViewer.java:407)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1626)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1636)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage.init(ImportWizardSelectionPage.java:275)
+	at com.qnx.tools.ide.qde.internal.ui.containerproject.ImportWizardSelectionPage.createControl(ImportWizardSelectionPage.java:254)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:180)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:744)
+	at org.eclipse.jface.wizard.WizardDialog.setWizard(WizardDialog.java:1184)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1235)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$3(WizardDialog.java:1225)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1225)
+	at org.eclipse.ui.internal.dialogs.ImportExportPage.treeDoubleClicked(ImportExportPage.java:229)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:779)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:776)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1579)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1205)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:271)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:328)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:153)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:279)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4119)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3707)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+!SESSION 2026-11-02 12:36:51.434 -----------------------------------------------
+eclipse.buildId=8.0.3
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:37:01.172
+!MESSAGE Enablement expression is missing for config provider for com.qnx.tools.ide.qde.core.recursiveMkProject
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:37:01.174
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:37:01.175
+!MESSAGE Enablement expression is missing for config provider for com.qnx.tools.ide.qde.debug.core.descriptorType.default
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-11-02 12:37:01.175
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY com.qnx.tools.ide.capabilities.ui 4 0 2026-11-02 12:37:01.182
+!MESSAGE activityProfiles.activityRequirementBinding: Invalid activityId com.qnx.tools.ide.capabilities.ui.activity.qnxSystemDeveloper
+
+!ENTRY com.qnx.tools.ide.capabilities.ui 4 0 2026-11-02 12:37:01.183
+!MESSAGE activityProfiles.activityRequirementBinding: Invalid requiredActivityId com.qnx.tools.ide.capabilities.ui.activity.qnxDeveloper
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.MomenticsHeartbeatClient 1 0 2026-11-02 12:37:01.324
+!MESSAGE License heartbeats are enabled (automatically)
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.MomenticsHeartbeatClient 1 0 2026-11-02 12:37:01.608
+!MESSAGE Successfully created a momentics heartbeat client
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.HeartbeatJob 1 0 2026-11-02 12:37:01.613
+!MESSAGE Heartbeat Job constructed with Invocation ON_SERVER_NEXT_SEND (scheduled to run at 2026-11-12T04:51:15Z)
+
+!ENTRY com.qnx.tools.ide.core 2 0 2026-11-02 12:37:01.705
+!MESSAGE Using previous doc directory C:\Users\amirn\qnx700\target\qnx7\usr\help
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.HeartbeatJob 1 0 2026-11-02 12:39:01.637
+!MESSAGE Heartbeat request not sent. Time is not right.
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.MomenticsHeartbeatClient 1 0 2026-11-02 12:39:01.638
+!MESSAGE License heartbeats are enabled (automatically)
+
+!ENTRY com.qnx.tools.ide.heartbeat.core.HeartbeatJob 1 0 2026-11-02 12:39:01.639
+!MESSAGE Heartbeat Job constructed with Invocation ON_SERVER_NEXT_SEND (scheduled to run at 2026-11-12T04:51:15Z)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2026-11-02 13:32:48.592
+!MESSAGE Connection to https://bts-engserv.bts.rim.net/job/IDE_master/lastSuccessfulBuild/artifact/src/product/qnx/target/repository/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2026-11-02 13:32:48.839
+!MESSAGE Connection to https://bts-engserv.bts.rim.net/job/IDE_master/lastSuccessfulBuild/artifact/src/product/qnx/target/repository/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2026-11-02 13:32:49.071
+!MESSAGE Connection to https://bts-engserv.bts.rim.net/job/IDE_master/lastSuccessfulBuild/artifact/src/product/qnx/target/repository/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2026-11-02 13:32:49.300
+!MESSAGE Connection to https://bts-engserv.bts.rim.net/job/IDE_master/lastSuccessfulBuild/artifact/src/product/qnx/target/repository/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2026-11-02 13:32:49.549
+!MESSAGE Connection to https://bts-engserv.bts.rim.net/job/IDE_master/lastSuccessfulBuild/artifact/src/product/qnx/target/repository/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2026-11-02 13:32:49.831
+!MESSAGE Connection to https://bts-engserv.bts.rim.net/job/IDE_master/lastSuccessfulBuild/artifact/src/product/qnx/target/repository/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2026-11-02 13:32:50.278
+!MESSAGE Unable to connect to repository https://bts-engserv.bts.rim.net/job/IDE_master/lastSuccessfulBuild/artifact/src/product/qnx/target/repository/content.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
